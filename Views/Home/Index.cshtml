@@ -27,7 +27,7 @@
                     <h5 class="card-title">@product.Name</h5>
                     <p class="card-text">@product.Description</p>
                     <p class="card-text">@product.Clock</p>
-                    <a href="#" class="btn btn-secondary">Bootcampe Git</a>
+                    <a asp-controller="Home" asp-action="Profile" asp-route-id="@product.ProductId" class="btn btn-secondary">Bootcampe Git</a>
                 </div>
             </div>
         }

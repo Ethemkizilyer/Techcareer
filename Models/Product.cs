@@ -9,11 +9,11 @@ namespace Techcareer.Models{
         [Required(ErrorMessage ="Bootcamp Adı zorunludur")]
         [Display(Name="Bootcamp Adı")]
         
-        public string? Name {get;set;}
+        public string Name {get;set;} = null!;
         [Required(ErrorMessage ="Bootcamp Açıklaması zorunludur")]
         [Display(Name="Bootcamp Açıklaması")]
-        [StringLength(125,ErrorMessage ="{0} açıklama {2} ve  {1} arasında kadar harf içermelidir.",MinimumLength =50)]
-        public string Description {get;set;} =string.Empty;
+        [StringLength(125,ErrorMessage ="{0} açıklama {2} ve  {1} arasında kadar harf içermelidir.",MinimumLength =10)]
+        public string Description {get;set;} = null!;
          [Required(ErrorMessage ="Bootcamp Saati zorunludur")]
          [Range(15,50)]
         [Display(Name="Bootcamp Saati")]

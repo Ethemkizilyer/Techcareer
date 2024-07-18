@@ -28,3 +28,4 @@ C:\Users\ethem\Desktop\FULLSTACK\BACKEND\Techcareer\obj\Debug\net8.0\refint\Tech
 C:\Users\ethem\Desktop\FULLSTACK\BACKEND\Techcareer\obj\Debug\net8.0\Techcareer.pdb
 C:\Users\ethem\Desktop\FULLSTACK\BACKEND\Techcareer\obj\Debug\net8.0\Techcareer.genruntimeconfig.cache
 C:\Users\ethem\Desktop\FULLSTACK\BACKEND\Techcareer\obj\Debug\net8.0\ref\Techcareer.dll
+C:\Users\ethem\Desktop\FULLSTACK\BACKEND\Techcareer\obj\Debug\net8.0\Techcareer.sourcelink.json
